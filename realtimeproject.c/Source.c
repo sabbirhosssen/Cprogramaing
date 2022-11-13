@@ -5,18 +5,18 @@ int main() {
 	int i;
 
 	for (i = 1; i <=20; i++) {
-		if (i == 16) {
+		if (i>=16 && i<=19) {
 			continue;
 		}
-		else if (i==17) {
-			continue;
-		}
-		else if (i == 18) {
-			continue;
-		}
-		else if (i == 19) {
-			continue;
-		}
+		//else if (i==17) {
+		//	continue;
+		//}
+		//else if (i == 18) {
+		//	continue;
+		//}
+		//else if (i == 19) {
+		//	continue;
+		//}
 		
 		
 		printf("%d\n", i);
